@@ -1,0 +1,14 @@
+.spinner:after {
+  display: block;
+  content: '⋯';
+  animation: .75s infinite spinner;
+  height: 100%;
+  width: 25px;
+}
+
+@keyframes spinner {
+  0% { content: '⋯'; }
+  25% { content: '⋱'; }
+  50% { content: '⋮'; }
+  75% { content: '⋰'; }
+}

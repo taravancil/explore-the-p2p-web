@@ -1,0 +1,215 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Inter UI';
+  src: url('dat://fonts.taravancil.com/inter-ui/Inter-UI-Regular.woff') format('woff'), url('https://fonts.taravancil.com/inter-ui/Inter-UI-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inter UI';
+  src: url('dat://fonts.taravancil.com/inter-ui/Inter-UI-Medium.woff') format('woff'), url('https://fonts.taravancil.com/inter-ui/Inter-UI-Medium.woff') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter UI';
+  src: url('dat://fonts.taravancil.com/inter-ui/Inter-UI-Bold.woff') format('woff'), url('dat://fonts.taravancil.com/inter-ui/Inter-UI-Bold.woff') format('woff');
+  font-weight: 700;
+}
+body {
+  font-family: 'Inter UI', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 12.5px;
+}
+.big-text {
+  font-size: 1.17em;
+}
+a {
+  text-decoration: underline;
+}
+a:hover {
+  color: #5543ff;
+}
+.btn {
+  border: 0;
+  outline: none;
+}
+.spinner:after {
+  display: block;
+  content: '⋯';
+  animation: 0.75s infinite spinner;
+  height: 100%;
+  width: 25px;
+}
+@keyframes spinner {
+  0% {
+    content: '⋯';
+  }
+  25% {
+    content: '⋱';
+  }
+  50% {
+    content: '⋮';
+  }
+  75% {
+    content: '⋰';
+  }
+}
+.entry {
+  position: relative;
+  max-height: 200px;
+  overflow: hidden;
+  padding: 10px;
+  border: 1px dotted;
+  box-shadow: 3px 3px #000;
+}
+.entry:hover {
+  border: 1px solid;
+}
+.entry-title {
+  margin-top: 0;
+  font-weight: 600;
+}
+.entry-description {
+  margin-top: 0;
+}
+.entry-image {
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.entry--image-pos-abs .entry-image,
+.entry--screenshot-pos-abs .entry-screenshot {
+  position: absolute;
+}
+.entry--image-bg .entry-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  max-width: initial;
+  max-height: initial;
+  z-index: -1;
+}
+.entry--black-bg {
+  background: #000;
+  color: #fff;
+}
+.entry--white-bg-text .entry-title,
+.entry--white-text .entry-description {
+  background: #fff;
+  padding: 0 5px;
+}
+.entry--white-text .entry-title,
+.entry--white-text .entry-description {
+  background: #000;
+  color: #fff;
+  padding: 0 5px;
+}
+/* specific entry styles */
+.entry--infocivics {
+  height: 200px;
+}
+.entry--infocivics .entry-image {
+  width: 100%;
+  height: 100%;
+}
+.entry--zombies .entry-image {
+  width: 125px;
+  right: 100px;
+  bottom: 5px;
+}
+.entry--zombies .entry-screenshot {
+  right: 10px;
+  bottom: 10px;
+}
+.entry--p2p-web-la {
+  max-height: 115px;
+}
+.entry--p2p-web-la .entry-image,
+.entry--p2p-web-nyc .entry-image,
+.entry--p2p-web-berlin .entry-image {
+  width: auto;
+  height: auto;
+  image-rendering: pixelated;
+}
+.entry--p2p-web-la .entry-image {
+  left: -100px;
+  top: -115px;
+}
+.entry--p2p-web-nyc .entry-image {
+  left: -10px;
+  top: -30px;
+}
+.entry--p2p-web-berlin .entry-image {
+  left: -600px;
+  top: -115px;
+}
+.entry--beaker-livestream {
+  height: 45px;
+}
+.entry--beaker-livestream .entry-title {
+  margin: 0;
+}
+.entry--beaker-livestream:after {
+  position: absolute;
+  left: 255px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: 'ON AIR';
+  display: block;
+  padding: 1px 5px 0 5px;
+  background: #dc3b30;
+  color: #fff;
+  font-weight: 500;
+}
+.entry--homebase {
+  height: 115px;
+  box-shadow: 3px 3px #B4D5FE;
+}
+.entry--homebase .entry-title,
+.entry--homebase .entry-description {
+  margin-left: 120px;
+}
+.entry--homebase .entry-image {
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.entry--archetype .entry-title,
+.entry--archetype .entry-description {
+  background: rgba(0, 0, 0, 0.5);
+}
+.container {
+  margin: auto;
+  max-width: 900px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.inline-flex {
+  display: inline-flex;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  grid-gap: 15px;
+}
+.grid--200 {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+}
+.grid-column--2 {
+  grid-column: auto / span 2;
+}
+.grid-column--3 {
+  grid-column: auto / span 3;
+}
+.grid-column--4 {
+  grid-column: auto / span 4;
+}
+.grid-row--2 {
+  grid-row: auto / span 2;
+}

@@ -1,0 +1,8 @@
+{
+  "title": "The entry's title",
+  "description" (optional): "A short description",
+  "screenshot" (optional): "Path to a screenshot. Max display size 250x150px",
+  "classes" (optional): [],
+  "datURL": "The entry's dat:// URL",
+  "httpURL": "The entry's http/s:// URL"
+}

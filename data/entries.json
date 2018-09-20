@@ -1,0 +1,192 @@
+[
+  {
+    "title": "homebase",
+    "description": "A self-deployable website management tool. Deploy and seed your websites, and help your friends seed theirs too!",
+    "image": "/images/house.png",
+    "classes": ["entry--homebase", "entry--image-pos-abs", "grid-column--2"],
+    "httpURL": "https://github.com/beakerbrowser/homebase",
+    "categories": ["tools"]
+  },
+  {
+    "title": "hashbase",
+    "description": "Seed your website's files, get a free domain name. A free seeding service with a premium upgraded plan",
+    "screenshot": "",
+    "classes": ["hashbase"],
+    "httpURL": "https://hashbase.io",
+    "categories": ["tools"]
+  },
+  {
+    "title": "Imagine this: a Web without servers",
+    "author": "Tara Vancil",
+    "screenshot": "",
+    "httpURL": "https://www.youtube.com/watch?v=rJ_WvfF3FN8",
+    "categories": ["ideas", "videos"]
+  },
+  {
+    "title": "Information Civics",
+    "description": "Deconstructing the power structures of large-scale social computing networks",
+    "image": "/images/statue-of-liberty.jpg",
+    "datURL": "dat://infocivics.com",
+    "httpURL": "https://infocivics.com",
+    "classes": ["entry--infocivics", "entry--white-text", "entry--image-pos-abs", "entry--image-bg"],
+    "categories": ["ideas", "words"]
+  },
+  {
+    "title": "Formalizing user rights on the Web",
+    "description": "What rights do our devices have on the Web? Explore rights and governance on the Web through the lens of natural and legal rights.",
+    "author": "Paul Frazee",
+    "screenshot": "/images/screenshots/formalizing-user-rights.jpg",
+    "httpURL": "https://www.youtube.com/watch?v=x-ffpAkviM0",
+    "classes": ["grid-column--2"],
+    "categories": ["ideas", "videos"]
+  },
+  {
+    "title": "Datcast",
+    "description": "A podcast series by Bret Comnes and Jim Pick",
+    "image": "/images/datcast.jpg",
+    "datURL": "dat://dat-cast.hashbase.io",
+    "httpURL": "https://dat-cast.hashbase.io",
+    "categories": ["sounds"]
+  },
+  {
+    "title": "Fritter",
+    "description": "A Twitter-inspired microblogging tool",
+    "datURL": "dat://fritter.hashbase.io",
+    "classes": ["entry--fritter"],
+    "categories": ["apps"]
+  },
+  {
+    "title": "Beaker Browser weekly livestream",
+    "httpURL": "https://www.youtube.com/channel/UCSkcL4my2wgDRFvjQOJzrlg",
+    "categories": ["videos"],
+    "classes": ["entry--beaker-livestream", "grid-column--2", "flex"]
+  },
+  {
+    "title": "Install Beaker",
+    "datURL": "dat://beakerbrowser.com/install",
+    "httpsURL": "https://beakerbrowser.com/install"
+  },
+  {
+    "title": "Peer-to",
+    "description": "A curated collection of archives by Jon-Kyle.",
+    "datURL": "dat://peer-to.peer-to-peer-web.com",
+    "httpURL": "https://peer-to.peer-to-peer-web.com",
+    "categories": ["collections"],
+    "classes": ["entry--black-bg"]
+  },
+  {
+    "title": "Peer-to-Peer Web / Los Angeles",
+    "datURL": "dat://peer-to-peer-web.com/los-angeles",
+    "httpURL": "https://peer-to-peer-web.com/los-angeles",
+    "classes": ["entry--p2p-web-la", "entry--white-bg-text", "entry--image-pos-abs", "entry--image-bg"],
+    "image": "dat://peer-to-peer-web.com/content/los-angeles/la.png"
+  },
+  {
+    "title": "Peer-to-Peer Web / NYC",
+    "datURL": "dat://peer-to-peer-web.com/nyc",
+    "httpURL": "https://peer-to-peer-web.com/nyc",
+    "classes": ["entry--p2p-web-nyc", "entry--white-bg-text", "entry--image-pos-abs", "entry--image-bg"],
+    "image": "dat://peer-to-peer-web.com/content/nyc/nyc.png"
+  },
+  {
+    "title": "Peer-to-Peer Web / Berlin",
+    "datURL": "dat://peer-to-peer-web.com/berlin",
+    "httpURL": "https://peer-to-peer-web.com/berlin",
+    "classes": ["entry--p2p-web-berlin", "entry--white-bg-text", "entry--image-pos-abs", "entry--image-bg"],
+    "image": "dat://peer-to-peer-web.com/content/berlin/berlin.png"
+  },
+  {
+    "title": "Enoki",
+    "description": "An experimental tool for peer-to-per publishing",
+    "datURL": "dat://enoki.site",
+    "httpURL": "https://enoki.site",
+    "categories": ["tools"]
+  },
+  {
+    "title": "Hypothetical zombie apocalypses and the p2p Web",
+    "author": "Hugh Isaacs",
+    "datURL": "dat://peer-to-peer-web.com/content/nyc/2018-05-26/videos/hugh-isaacs.mp4",
+    "httpURL": "https://peer-to-peer-web.com/content/nyc/2018-05-26/videos/hugh-isaacs.mp4",
+    "screenshot": "/images/screenshots/zombie-apocalypse.jpg",
+    "image": "/images/zombie.png",
+    "categories": ["ideas", "videos"],
+    "classes": ["entry--zombies", "entry--image-pos-abs", "entry--screenshot-pos-abs", "grid-column--2"]
+  },
+  {
+    "title": "A brief history of the Web",
+    "description": "...and how one architectural choice got us into a very big mess",
+    "author": "Tara Vancil",
+    "datURL": "dat://peer-to-peer-web.com/content/los-angeles/2017-12-10/media/03-tara-vancil.mp4",
+    "httpURL": "https://peer-to-peer-web.com/content/los-angeles/2017-12-10/media/03-tara-vancil.mp4",
+    "screenshot": "/images/screenshots/brief-history.jpg",
+    "image": "/images/arpanet.png",
+    "categories": ["ideas", "videos"]
+  },
+  {
+    "title": "PIXEL-EYEZ",
+    "description": "A tool for generationg PXON",
+    "image": "dat://pixel-eyez-taravancil.hashbase.io/images/icon2.png",
+    "categories": ["apps"],
+    "datURL": "dat://pixel-eyez-taravancil.hashbase.io",
+    "httpURL": "https://pixel-eyez-taravancil.hashbase.io"
+  },
+  {
+    "title": "Archetype.cc",
+    "description": "An invitation for artists to explore the web as an independent exhibition space. A blank, collaborative and customizable medium",
+    "categories": ["tools"],
+    "image": "/images/archetype.png",
+    "classes": ["entry--archetype", "entry--white-text", "entry--image-bg", "grid-row--2"],
+    "datURL": "dat://archetype.cc",
+    "httpURL": "https://archetype.cc"
+  },
+  {
+    "title": "crumb",
+    "classes": ["crumb"],
+    "image": "/images/crumb.png",
+    "datURL": "dat://a57302f3cb4dc9bf8176e08e0470fd3ba805e0a57d11c5a792f8df237fa44e90/",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Hashworms",
+    "classes": ["hashworms"],
+    "image": "/images/hashworm.png",
+    "datURL": "dat://ff176b8c453939142d592e1c2c5eef7c9c69423e1f85bc2560af52e6a8750ab2/",
+    "categories": ["tools"]
+  },
+  {
+    "title": "solo",
+    "description": "The simplest publishing tool",
+    "categories": ["tools"],
+    "datURL": "dat://solo-kodedninja.hashbase.io/",
+    "httpURL": "https://solo-kodedninja.hashbase.io/"
+  },
+  {
+    "title": "hypercast",
+    "description": "A tool for broadcasting p2p video streams",
+    "categories": ["tools"],
+    "httpURL": "https://github.com/louiscenter/hypercast"
+  },
+  {
+    "title": "Ridder",
+    "description": "An RSS reader that you own",
+    "categories": ["tools", "apps"],
+    "datURL": "dat://ridder-kodedninja.hashbase.io/",
+    "httpURL": "https://ridder-kodedninja.hashbase.io/"
+  },
+  {
+    "title": "Netlify CMS",
+    "categories": ["tools"],
+    "datURL": "dat://netlify-cms-snapshot-1-jimpick.hashbase.io/",
+    "httpURL": "https://netlify-cms-snapshot-1-jimpick.hashbase.io/",
+    "categories": ["tools"]
+  },
+  {
+    "title": "dotgrid",
+    "description": "SVG icon tool",
+    "datURL": "dat://dotgrid-neauoire.hashbase.io/",
+    "httpURL": "https://dotgrid-neauoire.hashbase.io/",
+    "image": "/images/dotgrid.png",
+    "categories": ["tools"],
+    "classes": ["entry--image-bg"]
+  }
+]

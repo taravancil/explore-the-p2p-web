@@ -1,0 +1,12 @@
+{
+  "title": "Explore the p2p Web",
+  "description": "A collection of websites, apps, games, and projects on the peer-to-peer Web",
+  "links": {
+    "payment": [
+      {
+        "href": "https://opencollective.com/beaker",
+        "type": "text/html"
+      }
+    ]
+  }
+}
