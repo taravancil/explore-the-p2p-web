@@ -22,12 +22,17 @@
     <div class="container">
       <h1>Explore</h1>
 
-      <div class="entries-list grid grid--200">
+      <div class="categories-container flex">
+        <div class="categories"></div>
+        <button class="categories-show-all link hidden">Show all</button>
+      </div>
+
+      <main role="main" class="entries-list grid grid--200">
         <div class="loading big-text grid-column--4">
           Loading
           <span class="spinner" aria-hidden="true"></span>
         </div>
-      </div>
+      </main>
     </div>
 
     <footer>

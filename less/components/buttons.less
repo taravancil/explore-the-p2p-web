@@ -1,10 +1,101 @@
-.btn {
+button {
   border: 0;
   outline: none;
+  background: #fff;
+  font-size: inherit;
+  padding: 0;
 }
 
-.btn:focus {
+.btn {
+  padding: 5px 10px;
+  border: 1px solid;
+  cursor: pointer;
 }
 
-.btn-primary {
+.btn--pink {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @pink;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@pink, 25%);
+  }
+}
+
+.btn--red {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @red;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@red, 20%);
+  }
+}
+
+.btn--orange {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @orange;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@orange, 18%);
+  }
+}
+
+.btn--yellow {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @yellow;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@yellow, 23%);
+  }
+}
+
+.btn--green {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @green;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@green, 35%);
+  }
+}
+
+.btn--teal {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @teal;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@teal, 29%);
+  }
+}
+
+.btn--blue {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @sky-blue;
+  }
+
+  &[aria-pressed="true"] {
+    background: @sky-blue;
+  }
+}
+
+.btn--purple {
+
+  &[aria-pressed="false"]:hover {
+    border-color: @purple;
+  }
+
+  &[aria-pressed="true"] {
+    background: lighten(@purple, 22%);
+  }
 }
