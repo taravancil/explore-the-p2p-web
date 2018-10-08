@@ -26,7 +26,8 @@ import {$} from '/js/utils.js'
     "sounds",
     "events",
     "ideas",
-    "words"
+    "words",
+    "collections"
   ]
 
   let files
