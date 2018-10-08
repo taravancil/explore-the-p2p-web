@@ -184,13 +184,22 @@
 }
 
 .entry--homebase {
-  height: 115px;
+  min-height: 140px;
   box-shadow: 3px 3px @sky-blue;
 }
 
 .entry--homebase .entry-title,
+.entry--homebase .entry-links,
 .entry--homebase .entry-description {
-  margin-left: 120px;
+  margin-left: 155px;
+}
+
+@media (min-width: 470px) {
+  .entry--homebase .entry-title,
+  .entry--homebase .entry-links,
+  .entry--homebase .entry-description {
+    margin-left: 145px;
+  }
 }
 
 .entry--homebase .entry-image {
