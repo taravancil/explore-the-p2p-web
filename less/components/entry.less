@@ -33,14 +33,21 @@
 .entry--image-pos-abs .entry-image,
 .entry--screenshot-pos-abs .entry-screenshot {
   position: absolute;
+  z-index: -1;
+}
+
+.entry--image-pos-abs .entry-image {
+  right: 10px;
+  bottom: 10px;
 }
 
 .entry--image-bg .entry-image {
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   max-width: initial;
   max-height: initial;
   z-index: -1;
