@@ -70,7 +70,44 @@
   height: 100%;
 }
 
-// the zombie
+.entry--future {
+  background: lighten(@green, 35%);
+  background: lighten(@orange, 18%);
+}
+
+.entry--future .entry-image {
+  left: initial;
+  right: -65px;
+  bottom: -45px;
+  transform: scale(.325);
+  z-index: 1;
+}
+
+.entry--cool-guy .entry-image {
+  transform: scale(.3);
+  left: initial;
+  right: -70px;
+  bottom: -85px;
+}
+
+.entry--computer-calm {
+  background: tomato;
+}
+
+.entry--computer-calm .entry-image {
+  transform: scale(.8);
+  top: 0;
+  z-index: 1;
+}
+
+.entry--praise-chorus {
+  background: lavender;
+}
+
+.entry--praise-chorus .entry-image {
+  z-index: 1;
+}
+
 .entry--zombies .entry-image {
   width: 125px;
   right: 100px;
@@ -146,7 +183,22 @@
   height: 100%;
 }
 
+.entry--imagine .entry-image {
+  bottom: -10px;
+}
+
 .entry--archetype .entry-title,
 .entry--archetype .entry-description {
   background: fadeout(#000, 50%);
+}
+
+.entry--formalizing .entry-title,
+.entry--formalizing .entry-description,
+.entry--formalizing .entry-links {
+  background: fadeout(#fff, 50%);
+  padding: 0 3px;
+}
+
+.entry--pixel-eyez .entry-image {
+  width: 80px;
 }

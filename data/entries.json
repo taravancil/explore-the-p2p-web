@@ -9,7 +9,7 @@
   },
   {
     "title": "hashbase",
-    "description": "Seed your website's files, get a free domain name. A free seeding service with a premium upgraded plan",
+    "description": "Seed your files, get a domain name, and more",
     "screenshot": "",
     "classes": ["hashbase"],
     "httpURL": "https://hashbase.io",
@@ -20,7 +20,9 @@
     "author": "Tara Vancil",
     "screenshot": "",
     "httpURL": "https://www.youtube.com/watch?v=rJ_WvfF3FN8",
-    "categories": ["ideas", "videos"]
+    "categories": ["ideas", "videos"],
+    "image": "/images/rainbow.png",
+    "classes": ["entry--imagine", "entry--image-bg"]
   },
   {
     "title": "Information Civics",
@@ -35,9 +37,9 @@
     "title": "Formalizing user rights on the Web",
     "description": "What rights do our devices have on the Web? Explore rights and governance on the Web through the lens of natural and legal rights.",
     "author": "Paul Frazee",
-    "screenshot": "/images/screenshots/formalizing-user-rights.jpg",
+    "image": "/images/state-of-nature.png",
     "httpURL": "https://www.youtube.com/watch?v=x-ffpAkviM0",
-    "classes": ["grid-column--2"],
+    "classes": ["entry--formalizing", "grid-column--2", "entry--image-bg"],
     "categories": ["ideas", "videos"]
   },
   {
@@ -46,11 +48,12 @@
     "image": "/images/datcast.jpg",
     "datURL": "dat://dat-cast.hashbase.io",
     "httpURL": "https://dat-cast.hashbase.io",
-    "categories": ["sounds"]
+    "categories": ["sounds"],
+    "classes": ["entry--image-pos-abs"]
   },
   {
     "title": "Fritter",
-    "description": "A Twitter-inspired microblogging tool",
+    "description": "p2p microblogging",
     "datURL": "dat://fritter.hashbase.io",
     "classes": ["entry--fritter"],
     "categories": ["apps"]
@@ -64,7 +67,7 @@
   {
     "title": "Install Beaker",
     "datURL": "dat://beakerbrowser.com/install",
-    "httpsURL": "https://beakerbrowser.com/install"
+    "httpURL": "https://beakerbrowser.com/install"
   },
   {
     "title": "Peer-to",
@@ -79,28 +82,24 @@
     "datURL": "dat://peer-to-peer-web.com/los-angeles",
     "httpURL": "https://peer-to-peer-web.com/los-angeles",
     "classes": ["entry--p2p-web-la", "entry--white-bg-text", "entry--image-pos-abs", "entry--image-bg"],
-    "image": "dat://peer-to-peer-web.com/content/los-angeles/la.png"
+    "image": "dat://peer-to-peer-web.com/content/los-angeles/la.png",
+    "categories": ["websites", "events"]
   },
   {
     "title": "Peer-to-Peer Web / NYC",
     "datURL": "dat://peer-to-peer-web.com/nyc",
     "httpURL": "https://peer-to-peer-web.com/nyc",
     "classes": ["entry--p2p-web-nyc", "entry--white-bg-text", "entry--image-pos-abs", "entry--image-bg"],
-    "image": "dat://peer-to-peer-web.com/content/nyc/nyc.png"
+    "image": "dat://peer-to-peer-web.com/content/nyc/nyc.png",
+    "categories": ["websites", "events"]
   },
   {
     "title": "Peer-to-Peer Web / Berlin",
     "datURL": "dat://peer-to-peer-web.com/berlin",
     "httpURL": "https://peer-to-peer-web.com/berlin",
     "classes": ["entry--p2p-web-berlin", "entry--white-bg-text", "entry--image-pos-abs", "entry--image-bg"],
-    "image": "dat://peer-to-peer-web.com/content/berlin/berlin.png"
-  },
-  {
-    "title": "Enoki",
-    "description": "An experimental tool for peer-to-per publishing",
-    "datURL": "dat://enoki.site",
-    "httpURL": "https://enoki.site",
-    "categories": ["tools"]
+    "image": "dat://peer-to-peer-web.com/content/berlin/berlin.png",
+    "categories": ["websites", "events"]
   },
   {
     "title": "Hypothetical zombie apocalypses and the p2p Web",
@@ -110,7 +109,7 @@
     "screenshot": "/images/screenshots/zombie-apocalypse.jpg",
     "image": "/images/zombie.png",
     "categories": ["ideas", "videos"],
-    "classes": ["entry--zombies", "entry--image-pos-abs", "entry--screenshot-pos-abs", "grid-column--2"]
+    "classes": ["entry--zombies", "entry--image-pos-abs", "entry--screenshot-pos-abs", "grid-column--2", "entry--black-bgm"]
   },
   {
     "title": "A brief history of the Web",
@@ -118,17 +117,35 @@
     "author": "Tara Vancil",
     "datURL": "dat://peer-to-peer-web.com/content/los-angeles/2017-12-10/media/03-tara-vancil.mp4",
     "httpURL": "https://peer-to-peer-web.com/content/los-angeles/2017-12-10/media/03-tara-vancil.mp4",
-    "screenshot": "/images/screenshots/brief-history.jpg",
     "image": "/images/arpanet.png",
-    "categories": ["ideas", "videos"]
+    "categories": ["ideas", "videos"],
+    "classes": ["entry--image-pos-abs", "entry--white-bg-text"]
   },
   {
     "title": "PIXEL-EYEZ",
-    "description": "A tool for generationg PXON",
-    "image": "dat://pixel-eyez-taravancil.hashbase.io/images/icon2.png",
-    "categories": ["apps"],
-    "datURL": "dat://pixel-eyez-taravancil.hashbase.io",
-    "httpURL": "https://pixel-eyez-taravancil.hashbase.io"
+    "description": "Convert images into PXON",
+    "image": "dat://pixel-eyez.taravancil.com/images/icon2.png",
+    "categories": ["apps", "websites"],
+    "datURL": "dat://pixel-eyez.taravancil.com",
+    "httpURL": "https://pixel-eyez-taravancil.hashbase.io",
+    "classes": ["entry--pixel-eyez", "entry--image-pos-abs"]
+  },
+  {
+    "title": "Enoki",
+    "description": "An experimental tool for peer-to-peer publishing",
+    "datURL": "dat://enoki.site",
+    "httpURL": "https://enoki.site",
+    "classes": ["entry--image-pos-abs", "entry--image-bg"],
+    "categories": ["tools"],
+    "image": "/images/mushrooms.jpg"
+  },
+  {
+    "title": "Hardly Everything",
+    "description": "Your feed with a cadence",
+    "datURL": "dat://hardlyeverything.com",
+    "image": "/images/hardly-everything.png",
+    "categories": ["websites", "tools"],
+    "classes": ["entry--image-bg", "entry--white-text", "grid-row--2"]
   },
   {
     "title": "Archetype.cc",
@@ -140,18 +157,25 @@
     "httpURL": "https://archetype.cc"
   },
   {
+    "title": "Code Societies, SFPC 2018 dat zines",
+    "datURL": "dat://cats-tchoi8.hashbase.io/README.md",
+    "categories": ["websites", "words", "collections"]
+  },
+  {
     "title": "crumb",
     "classes": ["crumb"],
     "image": "/images/crumb.png",
     "datURL": "dat://a57302f3cb4dc9bf8176e08e0470fd3ba805e0a57d11c5a792f8df237fa44e90/",
-    "categories": ["websites"]
+    "categories": ["websites"],
+    "classes": ["entry--image-pos-abs"]
   },
   {
     "title": "Hashworms",
     "classes": ["hashworms"],
     "image": "/images/hashworm.png",
     "datURL": "dat://ff176b8c453939142d592e1c2c5eef7c9c69423e1f85bc2560af52e6a8750ab2/",
-    "categories": ["tools"]
+    "categories": ["tools"],
+    "classes": ["entry--image-pos-abs"]
   },
   {
     "title": "solo",
@@ -159,6 +183,13 @@
     "categories": ["tools"],
     "datURL": "dat://solo-kodedninja.hashbase.io/",
     "httpURL": "https://solo-kodedninja.hashbase.io/"
+  },
+  {
+    "title": "dead-lite",
+    "description": "blogging/tumblog/content manufacturing device",
+    "categories": ["tools"],
+    "datURL": "dat://dead-lite.hashbase.io/",
+    "httpURL": "https://dead-lite.hashbase.io/"
   },
   {
     "title": "hypercast",
@@ -186,7 +217,364 @@
     "datURL": "dat://dotgrid-neauoire.hashbase.io/",
     "httpURL": "https://dotgrid-neauoire.hashbase.io/",
     "image": "/images/dotgrid.png",
-    "categories": ["tools"],
+    "categories": ["apps"],
     "classes": ["entry--image-bg"]
+  },
+  {
+    "title": "The Future Will Be Technical",
+    "description": "A modular essay about our optimistic future",
+    "datURL": "dat://d831ed3bdd7d5ae59f8e5d1b2cee92243ea4bb0edbf20ca047523d13c0c9c4b3",
+    "image": "/images/hermes.gif",
+    "classes": ["entry--future", "entry--image-bg"]
+  },
+  {
+    "title": "A Praise Chorus",
+    "description": "A dat zine",
+    "datURL": "dat://2295a89c2cdfb57ed91b135608627119199d5d834fbaede70a8713b2cedf6fe1#text",
+    "image": "/images/praise-chorus.png",
+    "categories": ["words", "websites", "ideas"],
+    "classes": ["entry--praise-chorus", "entry--image-pos-abs"]
+  },
+  {
+    "title": "5 minute computer calm",
+    "image": "/images/sit-up.gif",
+    "datURL": "dat://78801e775657e93cf5121239d4abf47c3d5f53d73dcb673b3ef8e07063058495",
+    "classes": ["entry--computer-calm", "entry--image-pos-abs"],
+    "categories": ["words", "websites"]
+  },
+  {
+    "title": "Clear skin in an unclear world: let's talk facial hygiene!",
+    "datURL": "dat://5b3ac4311a729e56c449e40e543d9e4be0350836313913e4b954a0b209faa17a/",
+    "categories": ["words", "websites"],
+    "image": "/images/clear-skin.jpg",
+    "classes": ["entry--image-bg", "grid-row--2"]
+  },
+  {
+    "title": "Winter yoga zine",
+    "datURL": "dat://3b1d54e8bf06ae0af1b167d8810d62d5d730de230723ee572655dc8fcd4f1408/",
+    "categories": ["words", "websites"],
+    "classes": ["entry--image-pos-abs"],
+    "image": "/images/cobra.jpg"
+  },
+  {
+    "title": "Local Area Network A-B-Z-TXT",
+    "description": "Grassroots independent publications",
+    "datURL": "dat://local-area-network.hashbase.io/a-b-z-txt/",
+    "httpURL": "https://local-area-network.hashbase.io/a-b-z-txt/",
+    "categories": ["collections", "words", "ideas"]
+  },
+  {
+    "title": "Files editor",
+    "description": "In-browser editor for dat:// files",
+    "datURL": "dat://editor-cryptic.hashbase.io/",
+    "httpURL": "https://editor-cryptic.hashbase.io/",
+    "categories": ["apps"],
+    "classes": ["entry--image-pos-abs"],
+    "image": "/images/text-cursor.png"
+  },
+  {
+    "title": "Photo tiling",
+    "categories": ["tools"],
+    "datURL": "dat://7e81d3e1fb359ee5e8c05eef3811fd81fb62b91d5c5fcbf768de73988712dac6/#?c=&m=&s=&cv=&xywh=-1%2C-1%2C1%2C0"
+  },
+  {
+    "title": "p2p forever",
+    "datURL": "dat://p2pforever.org",
+    "httpURL": "https://p2pforever.org",
+    "categories": ["collections"],
+    "image": "/images/p2p-forever.png",
+    "classes": ["entry--image-bg"]
+  },
+  {
+    "title": "peer OULIPO",
+    "description": "A p2p implementation of the OULIPO group's writing constraint techniques",
+    "categories": ["websites", "tools"],
+    "datURL": "dat://7bb129e7889594e5ec349feffa0e3156a0b77e923d6bf20550842af230ce5923/"
+  },
+  {
+    "title": "How I publish taravancil.com",
+    "datURL": "dat://taravancil.com/blog/how-i-publish-taravancil-com/",
+    "httpURL": "http://taravancil.com/blog/how-i-publish-taravancil-com/",
+    "categories": ["words"]
+  },
+  {
+    "title": "Publishing my Website to the peer-to-peer Web",
+    "datURL": "dat://ricky.codes/blog/posts/publishing-to-the-peer-to-peer-web/",
+    "httpURL": "https://ricky.codes/blog/posts/publishing-to-the-peer-to-peer-web/",
+    "categories": ["words"]
+  },
+  {
+    "title": "Multi-writer Dat could power the next Web",
+    "httpURL": "https://ar.al/2018/08/04/multiwriter-dat-could-power-the-next-web/",
+    "datURL": "dat://ar.al/2018/08/04/multiwriter-dat-could-power-the-next-web/",
+    "categories": ["words"]
+  },
+  {
+    "title": "Serving the Web from the Browser with Beaker",
+    "categories": ["words"],
+    "httpURL": "https://hacks.mozilla.org/2018/08/dweb-serving-the-web-from-the-browser-with-beaker/"
+  },
+  {
+    "title": "JS Party: Decentralizing the Web with Beaker",
+    "description": "Mathias Buus and Paul Frazee discuss Beaker with Feross",
+    "httpURL": "https://changelog.com/jsparty/42",
+    "categories": ["sounds"]
+  },
+  {
+    "title": "Jerry's Butt Sounds 2",
+    "datURL": "dat://cf6cc05939ae006e83b247c3565482167a18787f45dc65e9b81d689a40402e81",
+    "image": "/images/jerrys-butt-sounds.jpeg",
+    "categories": ["sounds"],
+    "classes": ["entry--image-bg", "grid-row--2", "entry--white-bg-text"]
+  },
+  {
+    "title": "A local guide to hypnosis",
+    "datURL": "dat://a04eb25c126025ec6e83d14e1e7eb8b78f3690e75c4785a97668b16802f83b68/",
+    "categories": ["websites"]
+  },
+  {
+    "title": "pixel-gallery",
+    "description": " A p2p pixel art gallery",
+    "datURL": "dat://pixel-gallery.hashbase.io/",
+    "httpURL": "https://pixel-gallery.hashbase.io/",
+    "categories": ["websites", "tools"],
+    "classes": ["entry--image-bg", "grid-row--2", "entry--white-text"],
+    "image": "/images/pixel-gallery.png"
+  },
+  {
+    "title": "A proposal for good gossip",
+    "description": "A blueprint for strengthening your network thru living the good gos' life",
+    "datURL": "dat://15f8fb2f22c7484c27d6608f0c26c588b81195dd5e5705f3f852192405ced8cf/",
+    "image": "/images/good-gos.png",
+    "categories": ["websites"],
+    "classes": ["entry--image-bg"]
+  },
+  {
+    "title": "A network of lists",
+    "datURL": "dat://e566f9860002026a5f969fd95c0e5afb3e4337dd71b27ee9759259c9c3afe356/",
+    "categories": "websites"
+  },
+  {
+    "title": "Close it down to open it up",
+    "description": "How would we use the street if cars were banned for a period of time?",
+    "datURL": "dat://ad694f34efb273424d3649d24e4cdd0073f3ce269a81f500f0f4a44e7345cff4/",
+    "categories": ["ideas", "websites"]
+  },
+  {
+    "title": "Beaker Bots Done Quick!",
+    "description": "An interface for making bots in Beaker",
+    "datURL": "dat://12521c77ad4f16f521e1f8a7e9f4430369849c47f67794f0fa8831e09e18417d/",
+    "categories": ["tools"]
+  },
+  {
+    "title": "Floating Swarm",
+    "description": "A peer-to-peer Web surf club",
+    "datURL": "dat://floating-swarm.hashbase.io",
+    "categories": ["websites", "collections"]
+  },
+  {
+    "title": "Cyber Sweep Day",
+    "description": "Like Earth Day but instead of cleaning Mother Earth you are tidying up your browser, device, and internet presence.",
+    "datURL": "dat://7fdbbc7a1726e0351912f380399f303bcf55c7271055c1b005aac0aa82370412",
+    "categories": ["websites", "events"],
+    "image": "/images/cyber-sweep.png",
+    "classes": ["entry--image-pos-abs", "grid-row--2"]
+  },
+  {
+    "title": "Dublab",
+    "description": "A non-profit radio station dedicated to the growth of music, arts, and culture",
+    "categories": ["sounds", "websites"]
+  },
+  {
+    "title": "DESTROY WITH SCIENCE digital devices",
+    "datURL": "dat://filez.destroywithscience.com/",
+    "categories": ["sounds"],
+    "image": "/images/destroy-with-science.jpeg",
+    "classes": ["entry--image-bg", "entry--white-text"]
+  },
+  {
+    "title": "irl lobby",
+    "description": "A place where people meet in real life to interact based on a common theme",
+    "datURL": "dat://7e861e1a6f68ee1e391cc4067d43bb571374d77274fbc0a0069a646d88279a15/about.html",
+    "categories": ["events", "websites"]
+  },
+  {
+    "title": "Typography Sundays",
+    "datURL": "dat://7e861e1a6f68ee1e391cc4067d43bb571374d77274fbc0a0069a646d88279a15/",
+    "categories": ["events", "websites"]
+  },
+  {
+    "title": "Ben Werdmüller",
+    "datURL": "dat://p2p.werd.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Foule",
+    "datURL": "dat://de037e790893b7113b93bc523c4cf7671acdbc370bfa0acc00e0b3781a83b56b/",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Grinding hr like never before",
+    "datURL": "dat://63367ab5e6073b56595c845d061ea2ba9593a8cda27c6fae4c5dec11da7d0f6e/",
+    "categories": ["websites"]
+  },
+  {
+    "title": "linkstream",
+    "description": "A place to save links",
+    "datURL": "dat://linkstream.hashbase.io",
+    "categories": ["tools"]
+  },
+  {
+    "title": "SimplyEdit",
+    "description": "A tool to build websites and web application user interfaces",
+    "datURL": "dat://reference.simplyedit.io",
+    "categories": ["websites", "tools"]
+  },
+  {
+    "title": "Dat Project",
+    "datURL": "dat://datproject.org",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Paul Frazee",
+    "datURL": "dat://pfrazee.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Tara Vancil",
+    "datURL": "dat://taravancil.com",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Jon-Kyle",
+    "datURL": "dat://jon-kyle.com",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Zach Mandeville",
+    "datURL": "dat://coolguy.website",
+    "categories": ["websites"],
+    "classes": ["entry--cool-guy", "entry--image-bg"],
+    "image": "/images/lavender.gif"
+  },
+  {
+    "title": "Web Desserts",
+    "datURL": "dat://www-webdesserts.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Michael Matuzak",
+    "datURL": "dat://lamdaphant.com",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Ryan Oles",
+    "datURL": "dat://electro.pizza",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Oleg Sklyanchuk",
+    "datURL": "dat://olegskl.com",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Alexis Perrier",
+    "datURL": "dat://alexisperrier.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Dissecting Dat",
+    "datURL": "dat://dat-dissected.unassu.me",
+    "categories": ["words", "websites"]
+  },
+  {
+    "title": "Coston",
+    "datURL": "dat://coston.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Alberto Valz Gris",
+    "datURL": "dat://albertovalzgris.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Protozoa",
+    "datURL": "dat://protozoa.nz",
+    "categories": ["websites"]
+  },
+  {
+    "title": "SengMing Tan",
+    "datURL": "dat://simple-sengming.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Brian Boucheron",
+    "datURL": "dat://boucheron.org/brian",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Fullstack Fest",
+    "datURL": "dat://fullstackfest.com/",
+    "categories": ["events", "websites"]
+  },
+  {
+    "title": "Chad Mazzola",
+    "datURL": "dat://chad.is",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Dominik Ferber",
+    "datURL": "dat://about-dferber.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Andrew Chou",
+    "datURL": "dat://whois-andrewchou.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "A New Kind of Ownership",
+    "datURL": "dat://distilled.pm",
+    "categories": ["websites", "words", "ideas"]
+  },
+  {
+    "title": "Kristian Muñiz",
+    "datURL": "dat://www.krismuniz.com",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Chris Jobling",
+    "datURL": "dat://journal-cpjobling.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Folder Studio",
+    "datURL": "dat://folder.studio",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Ismail Khoffi",
+    "datURL": "dat://ismail.hashbase.io",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Tom J. Watson",
+    "datURL": "dat://tomjwatson",
+    "categories": ["websites"]
+  },
+  {
+    "title": "ONEOHTRIX POINT NEVER",
+    "datURL": "dat://cbaf5d406d1c3435f73afef904523ec9f3ed8b4efd161521205ad3ee2ea85694",
+    "categories": ["websites", "sounds"]
+  },
+  {
+    "title": "Snakes!",
+    "datURL": "dat://f0594740ee82b42e341b206d7998912351d8adadff7fa924eba40ebc1d91d45d/",
+    "categories": ["websites"]
+  },
+  {
+    "title": "Olly Bromham",
+    "datURL": "dat://site-ollybromham.hashbase.io/",
+    "categories": ["websites"]
   }
 ]
