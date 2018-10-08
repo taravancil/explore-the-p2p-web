@@ -167,20 +167,20 @@
 }
 
 .entry--beaker-livestream .entry-title {
-  margin: 0;
+  margin: 0 10px 0 0;
 }
 
 .entry--beaker-livestream:after {
   position: absolute;
-  left: 255px;
+  content: '';
+  right: 10px;
   top: 50%;
+  width: 16px;
+  height: 16px;
   transform: translateY(-50%);
-  content: 'ON AIR';
   display: block;
-  padding: 1px 5px 0 5px;
   background: @red;
-  color: #fff;
-  font-weight: 500;
+  border-radius: 50%;
 }
 
 .entry--homebase {
