@@ -98,7 +98,9 @@ import {$} from '/js/utils.js'
         ${imageEl}
         ${screenshotEl}
 
-        <div class="entry-footer">
+        <div class="entry-links">
+          ${e.datURL ? `<a href="${e.datURL}">dat</a>` : ''}
+          ${e.httpURL ? `<a href="${e.httpURL}">http</a>` : ''}
         </div>
       </div>
     `
